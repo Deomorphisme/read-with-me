@@ -43,3 +43,35 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Flutter and Dart files
+.dart_tool/
+.idea/
+.metadata
+build/
+
+# Android files
+android/build/
+android/app/build/
+android/app/.gradle/
+
+# iOS files
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/build/
+
+# macOS files
+macos/Pods/
+macos/Runner.xcworkspace/
+macos/build/
+
+# Linux files
+linux/build/
+
+# Web files
+build_web/
+
+# General files
+.DS_Store
+*.iml
+*.log
